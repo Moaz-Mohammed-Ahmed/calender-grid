@@ -26,7 +26,7 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: hsl(150, 11%, 95%);
+    background-color: var(--white);
     box-shadow: 0 0 20px 0 #44444479;
 }
 
@@ -99,6 +99,7 @@ div.side {
 
 .controls i {
     padding: 15px;
+    padding-bottom: 0;
     font-size: 22px;
     cursor: pointer;
     color: hsl(0, 0%, 29%);
@@ -343,3 +344,7 @@ div.grid div.thirty-five{
 }
 
 /*Days Num End*/
+
+/*Media Start*/
+
+/*Media End*/
